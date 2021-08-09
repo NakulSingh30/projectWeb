@@ -1,0 +1,58 @@
+/* testimonial section */
+
+.testimonial-section{
+    margin-top: 10vh;
+    width: 100%;
+    height: 78vh;
+    flex-direction: column;
+
+}
+
+/* heading part */
+
+.testimonial-heading{
+    width: 100%;
+    height: 33%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.testimonial-main-heading{
+    height: 60%;
+    width: 35%;
+    align-items: center;
+ }
+ 
+.testimonial-sub-heading{
+   width: 40%;
+   height: 40%; 
+   align-items: flex-start;
+   padding-top: 10px;
+ }
+
+
+ .testimonial-main-heading,
+ .testimonial-sub-heading {
+     justify-content: center;
+ }
+
+
+.testimonial-main-heading p{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.testimonial-sub-heading p{
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 400;
+    color: var(--dark-grey);
+}
+
+
+/* doing all text center align in testimonial heading */
+ .testimonial-heading p{
+     text-align: center;
+ }

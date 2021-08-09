@@ -1,0 +1,208 @@
+/* price-section */
+
+.price-section{
+    width: 100%;
+    height: 135vh;
+}
+
+
+
+
+
+/* main and sub heading */
+
+.price-heading-container{
+    height: 26%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.price-main-heading,
+.price-sub-heading{
+    width: 40%;
+    height: 33%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.price-main-heading p{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.price-sub-heading p{
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--dark-grey);
+}
+
+
+
+
+/* price grid */
+
+
+/* grid container */
+.price-column-container{
+    height: 74%;
+    width: 100%;
+
+    justify-content: center;
+}
+
+
+/* cell grid */
+.price-column-grid{
+    height: 100%;
+    width: 76%;
+    justify-content: space-between;
+}
+
+
+/* each price cell */
+.price-column{
+    height: 100%;
+    width: 31%;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: solid 4px var(--very-light-grey);
+    border-radius: 10px;
+}
+
+
+
+
+/* price column image */
+.price-column-image-container{
+    width: 100%;
+    height: 33%;
+    flex-direction: column;
+}
+
+.price-column-image{
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-column-image img{
+    display: block;
+    max-width:80%;
+    max-height:80%;
+    width: auto;
+    height: auto;
+}
+
+
+/* image text */
+.price-column-image-text{
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-column-image-text p{
+    padding-top: 10%;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+/* price features list */
+
+.price-column-list{
+    width: 100%;
+    height: 35%;
+    justify-content: center;
+
+}
+
+
+
+.price-column-list ul{
+    padding-top: 7%;
+}
+
+
+.price-column-list li{ 
+	padding: 20px 0 20px 50px;
+	list-style: none;
+	background-image: url("../images/tick_mark.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+} 
+
+.price-column-list li{
+    color: var(--dark-grey);
+    font-size: 20px;
+}
+
+
+/* price text- price of product */
+
+
+.price-column-price{
+    width: 100%;
+    height: 24%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.price-text{
+    width: 100%;
+    height:49%;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-button{
+    width: 60%;
+    border-radius: 30px;
+    height: 27%;
+    border: solid 4px var(--red);
+    align-items: center;
+    justify-content: center;
+}
+
+.price-text p{
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--dark-grey);
+}
+
+.price-text strong{
+   color: black;
+   font-weight: 700;
+}
+
+.price-button p{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--red);
+}
+
+
+
+/* on hover on price column*/
+
+.price-column:hover .price-button{
+    background-color: var(--red);
+
+}
+
+
+.price-column:hover .price-button p{
+    color: white;
+}
+

@@ -1,0 +1,82 @@
+/* newsletter-section */
+
+.newsletter-section{
+    width: 100%;
+    height: 28vh;
+    position: relative;
+    top: 14vh;
+    z-index: 1;
+    justify-content: center;
+}
+
+/* container of news-letter */
+
+.newsletter-container{
+    height: 100%;
+    width: 80%;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 30px 100px -10px var(--light-grey);
+}
+
+
+/* text part of news-letter */
+.newsletter-text-container{
+    width: 42%;
+    height: 100%;
+    flex-direction: column;
+
+}
+
+
+.newsletter-main-heading p, 
+.newsletter-sub-heading p{
+    padding-left: 11%;
+    padding-right: 5%;
+}
+
+.newsletter-main-heading{
+ height: 66%;
+ width: 100%;
+ align-items: flex-end;
+}
+
+.newsletter-sub-heading{
+    height: 34%;
+    width: 100%;  
+
+}
+
+
+.newsletter-main-heading p{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 65px;
+    padding-bottom: 2%;
+}
+
+.newsletter-sub-heading{
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--dark-grey);
+}
+
+
+
+/* newsletter button */
+
+.subscribe-button{
+    width: 70%;
+    height: 35%;
+}
+
+.newsletter-button-container{
+    width: 34%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,111 @@
+:root {
+    --big-size: 70px;
+    --small-size: 22px;
+}
+
+
+/* numbers-container */
+
+.numbers-section{
+    margin-top: 2vh;
+    width: 100%;
+    height: 22vh;
+    /* background-color: blueviolet; */
+    justify-content: center;
+}
+
+.numbers-container{
+
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+
+/* numbers-cell containers */
+
+
+
+.numbers-cell-1,
+.numbers-cell-3{
+    width: 32%;
+}
+
+.numbers-cell-2{
+    width: 36%;
+}
+
+
+.numbers-cell-1,
+.numbers-cell-2,
+.numbers-cell-3{
+  height: 60%;
+  justify-content: center;
+  border-right: solid 4px var(--light-grey);
+}
+
+
+
+.cell-contents{
+  width: 60%;
+  height: 100%;
+}
+
+
+
+
+/* cell text */
+
+.cell-text{
+    height:100%;
+    width: 70%;
+    /* background-color: green; */
+    flex-direction: column;
+}
+
+
+.cell-internal-padding{
+    padding-top: 11%;
+}
+.cell-text p{
+    font-size: 26px;
+    font-weight: 400;
+    padding-left: 15%;
+    line-height: 40px;
+    color: var(--dark-grey);
+}
+
+.cell-text strong{
+    font-size: 35px;
+    font-weight: 700;
+    color:black;
+}
+
+
+
+/* cell image */
+
+.cell-image
+{
+  height:100%;
+  width: 30%;
+  align-items: center;
+}
+
+.cell-image img{
+    display: block;
+    width:80px;
+    height:80px;
+}
+
+
+
+
+/* utility */
+.remove-right-border{
+    border-right: none;
+}

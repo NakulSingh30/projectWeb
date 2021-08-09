@@ -1,0 +1,112 @@
+
+/* features section */
+.features-section{
+    height: 80vh;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0px 40px 100px -20px var(--light-grey);
+}
+
+
+
+/* featuers container */
+
+
+.features-content{
+    width: 100%;
+    height: 70%;
+    /* background-color: tomato; */
+}
+
+
+/* features image (left-part) */
+.features-image{
+    justify-content: center;
+    /* background-color: turquoise; */
+    width: 50%;
+}
+
+.features-image img{
+    padding-left: 20%;
+}
+
+
+/* features text (right part) */
+
+.features-text{
+    /* background-color: wheat; */
+    width: 50%;
+    flex-direction: column;
+
+}
+
+.features-main-heading{
+    width: 100%;
+    height: 33%;
+    /* background-color: blue; */
+    align-items: center;
+}
+
+.features-sub-heading{
+    width: 100%;
+    height: 20%;
+    /* background-color: green; */
+    align-items: center;
+}
+
+.features-list{
+    width: 100%;
+    height: 47%;
+    /* background-color: green; */
+}
+
+
+.features-main-heading p,
+.features-sub-heading p,
+.features-list ul {
+    padding-left: 20%;
+}
+
+
+
+/* main heading */
+.features-main-heading p{
+    padding-right: 30%;
+    line-height: 70px;
+    font-size: 48px;
+    font-weight: 500;
+
+}
+
+
+/* sub heading */
+.features-sub-heading p{
+    color: var(--dark-grey);
+    padding-right: 20%;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+
+
+/* features list */
+
+.features-list ul{
+    padding-top: 4%;
+}
+
+.features-list li{ 
+	padding: 20px 0 20px 40px;
+	list-style: none;
+	background-image: url("../images/Vector.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 25px;
+} 
+
+.features-list li{
+    color: var(--dark-grey);
+    font-size: 20px;
+}

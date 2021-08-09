@@ -1,0 +1,170 @@
+/* carousel container */
+.carousel-container{
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+
+/* carousel */
+
+
+.slick-carousel {
+  height: 100%;
+  width: 83%;
+  display: flex;
+}
+
+
+/* prev and next button container */
+.prev-c, .next-c{
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* prev and next button parent*/
+.prev-button, .next-button{
+   height: 100px;
+   width: 100px;
+   border-radius: 50px;
+   align-items: center;
+   justify-content: center;
+
+}
+
+
+.prev-button{
+  border : solid 4px var(--red);
+
+}
+
+.next-button{
+  background-color: var(--red);
+
+}
+
+
+.prev-button img,
+.next-button img{
+  height: 40px;
+  width: 40px;
+}
+
+
+
+.carousel-container,
+.slick-slide{
+  height: 30vh;
+}
+
+
+
+/* The width of each slide */
+.slick-slide {
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 28%;
+  height: 30vh;
+  border: solid 4px var(--light-grey);
+  border-radius: 10px;
+}
+
+
+/* container of content of slide */
+.slide-container{
+  height: 29vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
+/* user info */
+.user-container{
+  width: 100%;
+  height: 31%;
+  justify-content: space-between;
+}
+
+
+
+/* user info and stars */
+.user-review-container{
+  width: 100%;
+  height: 60%;
+}
+
+
+.user-info{
+  height: 100%;
+  width: 64%;
+  padding-left: 5%;
+ 
+}
+
+.user-stars{
+  height: 100%;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.user-picture{
+  height: 100%;
+  width: 30%;
+}
+
+.user-name{
+  height: 100%;
+  width: 70%;
+  flex-direction: column;
+}
+
+.user-full-name,
+.user-location-name{
+  align-items: center;
+  justify-content: flex-start;
+  height: 50%;
+  padding-left: 15%;
+}
+
+
+.user-full-name p{
+    font-size: var(--small-size);
+    font-weight: 500;
+}
+
+.user-location-name p{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--dark-grey);
+}
+
+.user-stars p{
+    font-size: 20px;
+}
+
+.star-container{
+    margin-left: 10px;
+    height: 22px;
+    width: 22px;
+}
+
+
+/* user review */
+
+.user-review-container p{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 12%;
+    line-height: 40px;
+    font-size: 18px;
+    color: var(--dark-grey);
+}
